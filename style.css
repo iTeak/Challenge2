@@ -1,0 +1,213 @@
+:root {
+    --primary:rgb(113, 101, 101);
+    --secondary:rgb(6, 6, 5);
+
+  }
+  
+body {margin: 0px;
+}
+
+.headerwrap {
+    box-shadow: black;
+    opacity: 90%;
+    
+
+}
+
+
+.me { max-width: fit-content;
+    max-width:200%;
+    margin: 0px;
+}
+.container, .containerright {display: inline-block;
+flex-direction: row;
+margin: 0px;
+}
+
+.container {margin: 30px;
+box-shadow: -175px 300px;
+box-shadow: 
+rgb(0, 0, 0);
+opacity: 70%;
+margin-top: 0px;
+align-content: flex-end;
+}
+
+.firstpagewrap {
+background-color: rgb(113, 101, 101);
+margin-right: 0;
+display: inline-block;
+overflow: none;
+
+
+
+}
+
+.name {font-size: 180px;
+font-style: italic;
+color: rgb(255, 255, 255);
+opacity: 70%;
+margin-bottom: 2px;
+text-shadow:-2px 5px rgb(213, 212, 212);
+opacity: 70%;
+text-align: left;
+margin-top: 0px;
+}
+p {font-size: 45px;
+    font-style: italic;
+    color: rgb(6, 6, 5);
+    margin-top: 0px;
+    opacity: 70%;
+    text-shadow: 2px 1px black
+}
+
+.header {
+    display: inline-block;
+}
+
+li {display:inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 2rem;
+font-style: italic;
+color: rgb(0, 0, 0);
+opacity: 70%;
+margin: 0px;
+margin-left: 0px;
+margin: 0px;    
+
+}
+
+.subtitles {
+    display:inline-block;
+    padding-left: 90px;
+    padding-right: 0px;
+    font-size: 50px;
+font-style: italic;
+color: rgb(0, 0, 0);
+opacity: 70%;
+margin: 0px;
+stroke-opacity: 20px;
+margin-left: 0px;    
+}
+
+.bigprojet .tinyproject, .project {
+    display: block;
+}
+
+.tinyproject {display: inline;
+display: flex;
+flex-direction: row;
+justify-content: baseline;
+margin: 0px;    
+}
+
+.projectlist {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+#projectimg {
+    display: inline;
+    max-width: 200px;
+    
+
+}
+
+#bigimg {
+    display: inline;
+    max-width: 250px;
+  
+}
+
+.bigprojet{
+    vertical-align: top;
+}
+ul{
+    margin-left: 0px;
+    padding-right: 70px;
+    background-color:rgb(113, 101, 101) ;
+}
+
+.myresumepage { display: block;
+    font-size: 50px;
+font-style: italic;
+color: rgb(0, 0, 0);
+opacity: 100%;
+background-color:rgb(113, 101, 101) ;
+margin-bottom: 500px;
+}
+
+ul a {
+    text-decoration: none;
+text-decoration-style: none;
+
+}
+
+.contactme {
+    display: block;
+    font-size: 50px;
+font-style: italic;
+color: rgb(0, 0, 0);
+opacity: 100%;
+background-color:rgb(113, 101, 101) ;
+margin-top: 0px;
+padding-top: 0%;
+
+
+}
+
+.headerwarp {
+    display: block;
+
+}
+
+
+div{
+    margin-top: 100px;
+    margin-bottom: 0%;
+}
+.firstpagewrap {margin-top: 0px;
+}
+
+body {
+    margin: 0;
+    padding: 0px;
+   
+        
+    }
+
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: var(--secondary);
+}
+a:hover {
+    color: red;
+}
+
+    @media screen and (max-width:700px){
+        h1 {display: block;margin: none;}
+        h2 p { font-size: 65%;}
+        li {display: block;}
+        #headerwrap li {display: block; padding: none;}
+        #projectimg {display: block;
+        flex-direction: row;}
+        .name {font-size: 100px;
+        text-shadow: none;
+    color:aliceblue}
+            body {display: block;}
+         .projectlist{display: block;}
+         .me {max-width: 500px;
+            box-shadow: none;
+            padding-right: none;
+        display: flex;
+    flex-direction:row;
+    }   
+            }
+    
+
+    
+    
